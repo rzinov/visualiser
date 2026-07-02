@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/828f1cf9dfff5042e3e50a2e905a1918/glfw-populate.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/b1cc6745456f711029bb2e31bff57fc5/glfw-populate-complete.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/2be8c2453c1d1353c8d436e9696ef991/glfw-populate-build.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/2be8c2453c1d1353c8d436e9696ef991/glfw-populate-configure.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/2be8c2453c1d1353c8d436e9696ef991/glfw-populate-download.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/2be8c2453c1d1353c8d436e9696ef991/glfw-populate-install.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/2be8c2453c1d1353c8d436e9696ef991/glfw-populate-mkdir.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/2be8c2453c1d1353c8d436e9696ef991/glfw-populate-patch.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/2be8c2453c1d1353c8d436e9696ef991/glfw-populate-test.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-subbuild/CMakeFiles/2be8c2453c1d1353c8d436e9696ef991/glfw-populate-update.rule

@@ -1,0 +1,14 @@
+# Target labels
+ imgui-populate
+# Source files and their labels
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/665cd077678565a3198b7057388c9283/imgui-populate.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/02b797cb07515f2ef4204a3e28df069e/imgui-populate-complete.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-build.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-configure.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-download.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-install.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-mkdir.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-patch.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-test.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-update.rule

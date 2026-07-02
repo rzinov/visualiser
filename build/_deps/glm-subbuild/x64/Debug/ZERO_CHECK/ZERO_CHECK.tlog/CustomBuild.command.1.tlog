@@ -1,0 +1,10 @@
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\GLM-SUBBUILD\CMAKEFILES\C40F9CFE9C8122B5375649F6A541F1EF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild -BC:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/glm-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

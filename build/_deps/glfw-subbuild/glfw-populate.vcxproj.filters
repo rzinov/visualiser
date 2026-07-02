@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\2be8c2453c1d1353c8d436e9696ef991\glfw-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\2be8c2453c1d1353c8d436e9696ef991\glfw-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\2be8c2453c1d1353c8d436e9696ef991\glfw-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\2be8c2453c1d1353c8d436e9696ef991\glfw-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\2be8c2453c1d1353c8d436e9696ef991\glfw-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\2be8c2453c1d1353c8d436e9696ef991\glfw-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\2be8c2453c1d1353c8d436e9696ef991\glfw-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\2be8c2453c1d1353c8d436e9696ef991\glfw-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\b1cc6745456f711029bb2e31bff57fc5\glfw-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\828f1cf9dfff5042e3e50a2e905a1918\glfw-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-subbuild\CMakeFiles\glfw-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{226FFC3E-F34F-3BA8-98C1-A4C273613BB8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

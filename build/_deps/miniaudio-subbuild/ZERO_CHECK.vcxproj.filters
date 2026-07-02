@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\miniaudio-subbuild\CMakeFiles\2de03defaffac7e94b0fe8806e51c640\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3F35A795-F7D4-352C-B727-9DA06C3AD85E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

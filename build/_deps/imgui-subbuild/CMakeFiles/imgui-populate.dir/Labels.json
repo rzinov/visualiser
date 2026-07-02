@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/665cd077678565a3198b7057388c9283/imgui-populate.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/02b797cb07515f2ef4204a3e28df069e/imgui-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/imgui-subbuild/CMakeFiles/7edeb39a7407127bcb7a6324ac7c7736/imgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-populate"
+		],
+		"name" : "imgui-populate"
+	}
+}

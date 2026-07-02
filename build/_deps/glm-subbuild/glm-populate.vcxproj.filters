@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\e900f1313ce6088365ce1f9238f4ef11\glm-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\e900f1313ce6088365ce1f9238f4ef11\glm-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\e900f1313ce6088365ce1f9238f4ef11\glm-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\e900f1313ce6088365ce1f9238f4ef11\glm-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\e900f1313ce6088365ce1f9238f4ef11\glm-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\e900f1313ce6088365ce1f9238f4ef11\glm-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\e900f1313ce6088365ce1f9238f4ef11\glm-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\e900f1313ce6088365ce1f9238f4ef11\glm-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\a7ba9bd48de80c994989559d2f59bb7b\glm-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\c40f9cfe9c8122b5375649f6a541f1ef\glm-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glm-subbuild\CMakeFiles\glm-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AEFDC1FE-981F-30E8-AE29-79E46D8C94D2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\2DE03DEFAFFAC7E94B0FE8806E51C640\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild -BC:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

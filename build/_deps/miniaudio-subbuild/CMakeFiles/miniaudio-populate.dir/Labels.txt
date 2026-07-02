@@ -1,0 +1,14 @@
+# Target labels
+ miniaudio-populate
+# Source files and their labels
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/miniaudio-populate
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/2de03defaffac7e94b0fe8806e51c640/miniaudio-populate.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/55b14d77829f7f8b4bc3921f7c3c6d7b/miniaudio-populate-complete.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/804467f1b081dcbfc896f2b6a41a96a3/miniaudio-populate-build.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/804467f1b081dcbfc896f2b6a41a96a3/miniaudio-populate-configure.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/804467f1b081dcbfc896f2b6a41a96a3/miniaudio-populate-download.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/804467f1b081dcbfc896f2b6a41a96a3/miniaudio-populate-install.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/804467f1b081dcbfc896f2b6a41a96a3/miniaudio-populate-mkdir.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/804467f1b081dcbfc896f2b6a41a96a3/miniaudio-populate-patch.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/804467f1b081dcbfc896f2b6a41a96a3/miniaudio-populate-test.rule
+C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/804467f1b081dcbfc896f2b6a41a96a3/miniaudio-populate-update.rule

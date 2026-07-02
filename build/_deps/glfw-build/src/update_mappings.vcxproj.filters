@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\CMakeFiles\38e06b79f258ab4e589fa4a30bcc5a59\update_mappings.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-src\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-src\src\mappings.h.in">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-src\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\zinov\Desktop\Visualiser\build\_deps\glfw-build\src\CMakeFiles\update_mappings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{22A08489-C25A-308E-A453-CB7F832816BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8F6B0F1D-2A5F-3572-8910-DA90DDF2CF47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

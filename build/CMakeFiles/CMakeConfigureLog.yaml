@@ -1,0 +1,2348 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/zinov/.gemini/antigravity/bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Antigravity\\bin"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.19.10-hotspot\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\FFAIO\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311\\Scripts"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files (x86)\\Autodesk\\Backburner\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\Tailscale\""
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\zinov\\.unsloth\\studio\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\zinov\\.dotnet\\tools"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\zinov\\AppData\\Local\\spicetify"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\npm"
+        - "C:\\Users\\zinov\\AppData\\AndroidCLI"
+        - "C:\\Users\\zinov\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\zinov\\.bun\\bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Python\\Python312\\Scripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 14.06.2026 19:42:39.
+      
+      Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\4.3.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.94
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/4.3.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/"
+      - "C:/Users/zinov/.gemini/antigravity/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/FFAIO/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files (x86)/Autodesk/Backburner/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/Tailscale\"/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/zinov/.unsloth/studio/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/zinov/.dotnet/tools/"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/"
+      - "C:/Users/zinov/AppData/Local/spicetify/"
+      - "C:/Users/zinov/AppData/Roaming/npm/"
+      - "C:/Users/zinov/AppData/AndroidCLI/"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/zinov/.bun/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/zinov/.gemini/antigravity/bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Antigravity\\bin"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.19.10-hotspot\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\FFAIO\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311\\Scripts"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files (x86)\\Autodesk\\Backburner\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\Tailscale\""
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\zinov\\.unsloth\\studio\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\zinov\\.dotnet\\tools"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\zinov\\AppData\\Local\\spicetify"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\npm"
+        - "C:\\Users\\zinov\\AppData\\AndroidCLI"
+        - "C:\\Users\\zinov\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\zinov\\.bun\\bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Python\\Python312\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/"
+      - "C:/Users/zinov/.gemini/antigravity/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/FFAIO/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files (x86)/Autodesk/Backburner/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/Tailscale\"/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/zinov/.unsloth/studio/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/zinov/.dotnet/tools/"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/"
+      - "C:/Users/zinov/AppData/Local/spicetify/"
+      - "C:/Users/zinov/AppData/Roaming/npm/"
+      - "C:/Users/zinov/AppData/AndroidCLI/"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/zinov/.bun/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/lld-link"
+      - "C:/Users/zinov/.gemini/antigravity/bin/lld-link.com"
+      - "C:/Users/zinov/.gemini/antigravity/bin/lld-link.exe"
+      - "C:/Users/zinov/.gemini/antigravity/bin/lld-link"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/lld-link.com"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/lld-link.exe"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/lld-link"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/FFAIO/bin/lld-link.com"
+      - "C:/Program Files (x86)/FFAIO/bin/lld-link.exe"
+      - "C:/Program Files (x86)/FFAIO/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link"
+      - "C:/Program Files (x86)/Autodesk/Backburner/lld-link.com"
+      - "C:/Program Files (x86)/Autodesk/Backburner/lld-link.exe"
+      - "C:/Program Files (x86)/Autodesk/Backburner/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files/MATLAB/R2025b/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/lld-link"
+      - "C:/Program Files/Tailscale\"/lld-link.com"
+      - "C:/Program Files/Tailscale\"/lld-link.exe"
+      - "C:/Program Files/Tailscale\"/lld-link"
+      - "C:/Program Files/Tailscale/lld-link.com"
+      - "C:/Program Files/Tailscale/lld-link.exe"
+      - "C:/Program Files/Tailscale/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/lld-link.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/lld-link.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/zinov/.unsloth/studio/bin/lld-link.com"
+      - "C:/Users/zinov/.unsloth/studio/bin/lld-link.exe"
+      - "C:/Users/zinov/.unsloth/studio/bin/lld-link"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/zinov/.dotnet/tools/lld-link.com"
+      - "C:/Users/zinov/.dotnet/tools/lld-link.exe"
+      - "C:/Users/zinov/.dotnet/tools/lld-link"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/Users/zinov/AppData/Local/spicetify/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/spicetify/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/spicetify/lld-link"
+      - "C:/Users/zinov/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/zinov/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/zinov/AppData/Roaming/npm/lld-link"
+      - "C:/Users/zinov/AppData/AndroidCLI/lld-link.com"
+      - "C:/Users/zinov/AppData/AndroidCLI/lld-link.exe"
+      - "C:/Users/zinov/AppData/AndroidCLI/lld-link"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/lld-link"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/lld-link"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Users/zinov/.bun/bin/lld-link.com"
+      - "C:/Users/zinov/.bun/bin/lld-link.exe"
+      - "C:/Users/zinov/.bun/bin/lld-link"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/zinov/.gemini/antigravity/bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Antigravity\\bin"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.19.10-hotspot\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\FFAIO\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311\\Scripts"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files (x86)\\Autodesk\\Backburner\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\Tailscale\""
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\zinov\\.unsloth\\studio\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\zinov\\.dotnet\\tools"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\zinov\\AppData\\Local\\spicetify"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\npm"
+        - "C:\\Users\\zinov\\AppData\\AndroidCLI"
+        - "C:\\Users\\zinov\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\zinov\\.bun\\bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Python\\Python312\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/"
+      - "C:/Users/zinov/.gemini/antigravity/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/FFAIO/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files (x86)/Autodesk/Backburner/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/Tailscale\"/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/zinov/.unsloth/studio/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/zinov/.dotnet/tools/"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/"
+      - "C:/Users/zinov/AppData/Local/spicetify/"
+      - "C:/Users/zinov/AppData/Roaming/npm/"
+      - "C:/Users/zinov/AppData/AndroidCLI/"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/zinov/.bun/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/zinov/.gemini/antigravity/bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Antigravity\\bin"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.19.10-hotspot\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\FFAIO\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311\\Scripts"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files (x86)\\Autodesk\\Backburner\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\Tailscale\""
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\zinov\\.unsloth\\studio\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\zinov\\.dotnet\\tools"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\zinov\\AppData\\Local\\spicetify"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\npm"
+        - "C:\\Users\\zinov\\AppData\\AndroidCLI"
+        - "C:\\Users\\zinov\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\zinov\\.bun\\bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Python\\Python312\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/"
+      - "C:/Users/zinov/.gemini/antigravity/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/FFAIO/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files (x86)/Autodesk/Backburner/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/Tailscale\"/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/zinov/.unsloth/studio/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/zinov/.dotnet/tools/"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/"
+      - "C:/Users/zinov/AppData/Local/spicetify/"
+      - "C:/Users/zinov/AppData/Roaming/npm/"
+      - "C:/Users/zinov/AppData/AndroidCLI/"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/zinov/.bun/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/mt"
+      - "C:/Users/zinov/.gemini/antigravity/bin/mt.com"
+      - "C:/Users/zinov/.gemini/antigravity/bin/mt.exe"
+      - "C:/Users/zinov/.gemini/antigravity/bin/mt"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/mt.com"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/mt.exe"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/mt"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/mt.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/mt.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/mt.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/mt.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/mt"
+      - "C:/Windows/System32/mt.com"
+      - "C:/Windows/System32/mt.exe"
+      - "C:/Windows/System32/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/System32/wbem/mt.com"
+      - "C:/Windows/System32/wbem/mt.exe"
+      - "C:/Windows/System32/wbem/mt"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/System32/OpenSSH/mt.com"
+      - "C:/Windows/System32/OpenSSH/mt.exe"
+      - "C:/Windows/System32/OpenSSH/mt"
+      - "C:/Program Files (x86)/FFAIO/bin/mt.com"
+      - "C:/Program Files (x86)/FFAIO/bin/mt.exe"
+      - "C:/Program Files (x86)/FFAIO/bin/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/mt.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/mt.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/mt"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/mt.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/mt.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/mt"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/mt"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/mt"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/mt"
+      - "C:/Program Files/Common Files/Autodesk Shared/mt.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/mt.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/mt"
+      - "C:/Program Files (x86)/Autodesk/Backburner/mt.com"
+      - "C:/Program Files (x86)/Autodesk/Backburner/mt.exe"
+      - "C:/Program Files (x86)/Autodesk/Backburner/mt"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/mt"
+      - "C:/Program Files/MATLAB/R2025b/bin/mt.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/mt.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/mt"
+      - "C:/Program Files/Tailscale\"/mt.com"
+      - "C:/Program Files/Tailscale\"/mt.exe"
+      - "C:/Program Files/Tailscale\"/mt"
+      - "C:/Program Files/Tailscale/mt.com"
+      - "C:/Program Files/Tailscale/mt.exe"
+      - "C:/Program Files/Tailscale/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/mt.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/mt.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/mt"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/mt"
+      - "C:/Program Files/CMake/bin/mt.com"
+      - "C:/Program Files/CMake/bin/mt.exe"
+      - "C:/Program Files/CMake/bin/mt"
+      - "C:/Users/zinov/.unsloth/studio/bin/mt.com"
+      - "C:/Users/zinov/.unsloth/studio/bin/mt.exe"
+      - "C:/Users/zinov/.unsloth/studio/bin/mt"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/mt.com"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/mt.exe"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/mt"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/zinov/.dotnet/tools/mt.com"
+      - "C:/Users/zinov/.dotnet/tools/mt.exe"
+      - "C:/Users/zinov/.dotnet/tools/mt"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/mt.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/mt.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/mt"
+      - "C:/Users/zinov/AppData/Local/spicetify/mt.com"
+      - "C:/Users/zinov/AppData/Local/spicetify/mt.exe"
+      - "C:/Users/zinov/AppData/Local/spicetify/mt"
+      - "C:/Users/zinov/AppData/Roaming/npm/mt.com"
+      - "C:/Users/zinov/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/zinov/AppData/Roaming/npm/mt"
+      - "C:/Users/zinov/AppData/AndroidCLI/mt.com"
+      - "C:/Users/zinov/AppData/AndroidCLI/mt.exe"
+      - "C:/Users/zinov/AppData/AndroidCLI/mt"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/mt.com"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/mt.exe"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/mt"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/mt.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/mt.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/mt"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.com"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/mt.exe"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/mt"
+      - "C:/Users/zinov/.bun/bin/mt.com"
+      - "C:/Users/zinov/.bun/bin/mt.exe"
+      - "C:/Users/zinov/.bun/bin/mt"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/mt.com"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/mt.exe"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/zinov/.gemini/antigravity/bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Antigravity\\bin"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.19.10-hotspot\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\FFAIO\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311\\Scripts"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files (x86)\\Autodesk\\Backburner\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\Tailscale\""
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\zinov\\.unsloth\\studio\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\zinov\\.dotnet\\tools"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\zinov\\AppData\\Local\\spicetify"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\npm"
+        - "C:\\Users\\zinov\\AppData\\AndroidCLI"
+        - "C:\\Users\\zinov\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\zinov\\.bun\\bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Python\\Python312\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/"
+      - "C:/Users/zinov/.gemini/antigravity/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/FFAIO/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files (x86)/Autodesk/Backburner/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/Tailscale\"/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/zinov/.unsloth/studio/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/zinov/.dotnet/tools/"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/"
+      - "C:/Users/zinov/AppData/Local/spicetify/"
+      - "C:/Users/zinov/AppData/Roaming/npm/"
+      - "C:/Users/zinov/AppData/AndroidCLI/"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/zinov/.bun/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/zinov/.gemini/antigravity/bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Antigravity\\bin"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.19.10-hotspot\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\FFAIO\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311\\Scripts"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files (x86)\\Autodesk\\Backburner\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\Tailscale\""
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\zinov\\.unsloth\\studio\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\zinov\\.dotnet\\tools"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\zinov\\AppData\\Local\\spicetify"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\npm"
+        - "C:\\Users\\zinov\\AppData\\AndroidCLI"
+        - "C:\\Users\\zinov\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\zinov\\.bun\\bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Python\\Python312\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/zinov/.gemini/antigravity/bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Antigravity\\bin"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.19.10-hotspot\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\FFAIO\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311\\Scripts"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files (x86)\\Autodesk\\Backburner\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\Tailscale\""
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\zinov\\.unsloth\\studio\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\zinov\\.dotnet\\tools"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\zinov\\AppData\\Local\\spicetify"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\npm"
+        - "C:\\Users\\zinov\\AppData\\AndroidCLI"
+        - "C:\\Users\\zinov\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\zinov\\.bun\\bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Python\\Python312\\Scripts"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.6.3+07e294721 for .NET Framework
+      Build started 14.06.2026 19:42:40.
+      
+      Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\4.3.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.57
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/4.3.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/"
+      - "C:/Users/zinov/.gemini/antigravity/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/FFAIO/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files (x86)/Autodesk/Backburner/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/Tailscale\"/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/zinov/.unsloth/studio/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/zinov/.dotnet/tools/"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/"
+      - "C:/Users/zinov/AppData/Local/spicetify/"
+      - "C:/Users/zinov/AppData/Roaming/npm/"
+      - "C:/Users/zinov/AppData/AndroidCLI/"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/zinov/.bun/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/Hostx64/x64/lld-link"
+      - "C:/Users/zinov/.gemini/antigravity/bin/lld-link.com"
+      - "C:/Users/zinov/.gemini/antigravity/bin/lld-link.exe"
+      - "C:/Users/zinov/.gemini/antigravity/bin/lld-link"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/lld-link.com"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/lld-link.exe"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/lld-link"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/lld-link"
+      - "C:/Windows/System32/lld-link.com"
+      - "C:/Windows/System32/lld-link.exe"
+      - "C:/Windows/System32/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/System32/wbem/lld-link.com"
+      - "C:/Windows/System32/wbem/lld-link.exe"
+      - "C:/Windows/System32/wbem/lld-link"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/System32/OpenSSH/lld-link.com"
+      - "C:/Windows/System32/OpenSSH/lld-link.exe"
+      - "C:/Windows/System32/OpenSSH/lld-link"
+      - "C:/Program Files (x86)/FFAIO/bin/lld-link.com"
+      - "C:/Program Files (x86)/FFAIO/bin/lld-link.exe"
+      - "C:/Program Files (x86)/FFAIO/bin/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/lld-link"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/lld-link"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/lld-link"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/lld-link"
+      - "C:/Program Files (x86)/Autodesk/Backburner/lld-link.com"
+      - "C:/Program Files (x86)/Autodesk/Backburner/lld-link.exe"
+      - "C:/Program Files (x86)/Autodesk/Backburner/lld-link"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/lld-link"
+      - "C:/Program Files/MATLAB/R2025b/bin/lld-link.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/lld-link.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/lld-link"
+      - "C:/Program Files/Tailscale\"/lld-link.com"
+      - "C:/Program Files/Tailscale\"/lld-link.exe"
+      - "C:/Program Files/Tailscale\"/lld-link"
+      - "C:/Program Files/Tailscale/lld-link.com"
+      - "C:/Program Files/Tailscale/lld-link.exe"
+      - "C:/Program Files/Tailscale/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/lld-link.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/lld-link.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/lld-link"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Users/zinov/.unsloth/studio/bin/lld-link.com"
+      - "C:/Users/zinov/.unsloth/studio/bin/lld-link.exe"
+      - "C:/Users/zinov/.unsloth/studio/bin/lld-link"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/lld-link"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/lld-link"
+      - "C:/Users/zinov/.dotnet/tools/lld-link.com"
+      - "C:/Users/zinov/.dotnet/tools/lld-link.exe"
+      - "C:/Users/zinov/.dotnet/tools/lld-link"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/lld-link"
+      - "C:/Users/zinov/AppData/Local/spicetify/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/spicetify/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/spicetify/lld-link"
+      - "C:/Users/zinov/AppData/Roaming/npm/lld-link.com"
+      - "C:/Users/zinov/AppData/Roaming/npm/lld-link.exe"
+      - "C:/Users/zinov/AppData/Roaming/npm/lld-link"
+      - "C:/Users/zinov/AppData/AndroidCLI/lld-link.com"
+      - "C:/Users/zinov/AppData/AndroidCLI/lld-link.exe"
+      - "C:/Users/zinov/AppData/AndroidCLI/lld-link"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/lld-link"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/lld-link"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.com"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link.exe"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/lld-link"
+      - "C:/Users/zinov/.bun/bin/lld-link.com"
+      - "C:/Users/zinov/.bun/bin/lld-link.exe"
+      - "C:/Users/zinov/.bun/bin/lld-link"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/lld-link.com"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/lld-link.exe"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/lld-link"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/zinov/.gemini/antigravity/bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Antigravity\\bin"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.19.10-hotspot\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\FFAIO\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311\\Scripts"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files (x86)\\Autodesk\\Backburner\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\Tailscale\""
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\zinov\\.unsloth\\studio\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\zinov\\.dotnet\\tools"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\zinov\\AppData\\Local\\spicetify"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\npm"
+        - "C:\\Users\\zinov\\AppData\\AndroidCLI"
+        - "C:\\Users\\zinov\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\zinov\\.bun\\bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Python\\Python312\\Scripts"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-C.cmake:5 (__windows_compiler_msvc)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Users/zinov/.gemini/antigravity/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/FFAIO/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files (x86)/Autodesk/Backburner/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/Tailscale\"/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/zinov/.unsloth/studio/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/zinov/.dotnet/tools/"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/"
+      - "C:/Users/zinov/AppData/Local/spicetify/"
+      - "C:/Users/zinov/AppData/Roaming/npm/"
+      - "C:/Users/zinov/AppData/AndroidCLI/"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/zinov/.bun/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/Visualiser/bin/"
+      - "C:/Program Files (x86)/Visualiser/sbin/"
+      - "C:/Program Files (x86)/Visualiser/"
+    searched_directories:
+      - "C:/Users/zinov/.gemini/antigravity/bin/rc.com"
+      - "C:/Users/zinov/.gemini/antigravity/bin/rc.exe"
+      - "C:/Users/zinov/.gemini/antigravity/bin/rc"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/rc.com"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/rc.exe"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/rc"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/rc.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/rc.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/rc.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/rc.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/rc"
+      - "C:/Windows/System32/rc.com"
+      - "C:/Windows/System32/rc.exe"
+      - "C:/Windows/System32/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/System32/wbem/rc.com"
+      - "C:/Windows/System32/wbem/rc.exe"
+      - "C:/Windows/System32/wbem/rc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/System32/OpenSSH/rc.com"
+      - "C:/Windows/System32/OpenSSH/rc.exe"
+      - "C:/Windows/System32/OpenSSH/rc"
+      - "C:/Program Files (x86)/FFAIO/bin/rc.com"
+      - "C:/Program Files (x86)/FFAIO/bin/rc.exe"
+      - "C:/Program Files (x86)/FFAIO/bin/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/rc.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/rc.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/rc"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/rc.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/rc.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/rc"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/rc"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/rc"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/rc"
+      - "C:/Program Files/Common Files/Autodesk Shared/rc.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/rc.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/rc"
+      - "C:/Program Files (x86)/Autodesk/Backburner/rc.com"
+      - "C:/Program Files (x86)/Autodesk/Backburner/rc.exe"
+      - "C:/Program Files (x86)/Autodesk/Backburner/rc"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/rc"
+      - "C:/Program Files/MATLAB/R2025b/bin/rc.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/rc.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/rc"
+      - "C:/Program Files/Tailscale\"/rc.com"
+      - "C:/Program Files/Tailscale\"/rc.exe"
+      - "C:/Program Files/Tailscale\"/rc"
+      - "C:/Program Files/Tailscale/rc.com"
+      - "C:/Program Files/Tailscale/rc.exe"
+      - "C:/Program Files/Tailscale/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/rc.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/rc.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/rc"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Users/zinov/.unsloth/studio/bin/rc.com"
+      - "C:/Users/zinov/.unsloth/studio/bin/rc.exe"
+      - "C:/Users/zinov/.unsloth/studio/bin/rc"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/rc.com"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/rc.exe"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/rc"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/rc.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/rc.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/rc"
+      - "C:/Users/zinov/.dotnet/tools/rc.com"
+      - "C:/Users/zinov/.dotnet/tools/rc.exe"
+      - "C:/Users/zinov/.dotnet/tools/rc"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/rc.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/rc.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/rc"
+      - "C:/Users/zinov/AppData/Local/spicetify/rc.com"
+      - "C:/Users/zinov/AppData/Local/spicetify/rc.exe"
+      - "C:/Users/zinov/AppData/Local/spicetify/rc"
+      - "C:/Users/zinov/AppData/Roaming/npm/rc.com"
+      - "C:/Users/zinov/AppData/Roaming/npm/rc.exe"
+      - "C:/Users/zinov/AppData/Roaming/npm/rc"
+      - "C:/Users/zinov/AppData/AndroidCLI/rc.com"
+      - "C:/Users/zinov/AppData/AndroidCLI/rc.exe"
+      - "C:/Users/zinov/AppData/AndroidCLI/rc"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/rc.com"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/rc.exe"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/rc"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/rc.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/rc.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/rc"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.com"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/rc.exe"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/rc"
+      - "C:/Users/zinov/.bun/bin/rc.com"
+      - "C:/Users/zinov/.bun/bin/rc.exe"
+      - "C:/Users/zinov/.bun/bin/rc"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/rc.com"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/rc.exe"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/rc"
+      - "C:/Program Files/bin/rc.com"
+      - "C:/Program Files/bin/rc.exe"
+      - "C:/Program Files/bin/rc"
+      - "C:/Program Files/sbin/rc.com"
+      - "C:/Program Files/sbin/rc.exe"
+      - "C:/Program Files/sbin/rc"
+      - "C:/Program Files/rc.com"
+      - "C:/Program Files/rc.exe"
+      - "C:/Program Files/rc"
+      - "C:/Program Files (x86)/bin/rc.com"
+      - "C:/Program Files (x86)/bin/rc.exe"
+      - "C:/Program Files (x86)/bin/rc"
+      - "C:/Program Files (x86)/sbin/rc.com"
+      - "C:/Program Files (x86)/sbin/rc.exe"
+      - "C:/Program Files (x86)/sbin/rc"
+      - "C:/Program Files (x86)/rc.com"
+      - "C:/Program Files (x86)/rc.exe"
+      - "C:/Program Files (x86)/rc"
+      - "C:/Program Files/CMake/bin/rc.com"
+      - "C:/Program Files/CMake/bin/rc.exe"
+      - "C:/Program Files/CMake/bin/rc"
+      - "C:/Program Files/CMake/sbin/rc.com"
+      - "C:/Program Files/CMake/sbin/rc.exe"
+      - "C:/Program Files/CMake/sbin/rc"
+      - "C:/Program Files/CMake/rc.com"
+      - "C:/Program Files/CMake/rc.exe"
+      - "C:/Program Files/CMake/rc"
+      - "C:/Program Files (x86)/Visualiser/bin/rc.com"
+      - "C:/Program Files (x86)/Visualiser/bin/rc.exe"
+      - "C:/Program Files (x86)/Visualiser/bin/rc"
+      - "C:/Program Files (x86)/Visualiser/sbin/rc.com"
+      - "C:/Program Files (x86)/Visualiser/sbin/rc.exe"
+      - "C:/Program Files (x86)/Visualiser/sbin/rc"
+      - "C:/Program Files (x86)/Visualiser/rc.com"
+      - "C:/Program Files (x86)/Visualiser/rc.exe"
+      - "C:/Program Files (x86)/Visualiser/rc"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/zinov/.gemini/antigravity/bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Antigravity\\bin"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.19.10-hotspot\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\FFAIO\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311\\Scripts"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files (x86)\\Autodesk\\Backburner\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\Tailscale\""
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\zinov\\.unsloth\\studio\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\zinov\\.dotnet\\tools"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\zinov\\AppData\\Local\\spicetify"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\npm"
+        - "C:\\Users\\zinov\\AppData\\AndroidCLI"
+        - "C:\\Users\\zinov\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\zinov\\.bun\\bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Python\\Python312\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Visualiser"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Visualiser"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-f49630"
+      binary: "C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-f49630"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-f49630'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ab7d7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 14.06.2026 19:42:41.
+        
+        Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f49630\\cmTC_ab7d7.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f49630\\Debug\\".
+          Creating directory "cmTC_ab7d7.dir\\Debug\\cmTC_ab7d7.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ab7d7.dir\\Debug\\cmTC_ab7d7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ab7d7.dir\\Debug\\\\" /Fd"cmTC_ab7d7.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CMakeCCompilerABI.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ab7d7.dir\\Debug\\\\" /Fd"cmTC_ab7d7.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f49630\\Debug\\cmTC_ab7d7.exe" /INCREMENTAL /ILK:"cmTC_ab7d7.dir\\Debug\\cmTC_ab7d7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-f49630/Debug/cmTC_ab7d7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-f49630/Debug/cmTC_ab7d7.lib" /MACHINE:X64  /machine:x64 cmTC_ab7d7.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ab7d7.vcxproj -> C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f49630\\Debug\\cmTC_ab7d7.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ab7d7.dir\\Debug\\cmTC_ab7d7.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ab7d7.dir\\Debug\\cmTC_ab7d7.tlog\\cmTC_ab7d7.lastbuildstate".
+        Done Building Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f49630\\cmTC_ab7d7.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.42
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.36.32537.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-eboypr"
+      binary: "C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-eboypr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-eboypr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6f231.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 14.06.2026 19:42:42.
+        
+        Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eboypr\\cmTC_6f231.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eboypr\\Debug\\".
+          Creating directory "cmTC_6f231.dir\\Debug\\cmTC_6f231.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_6f231.dir\\Debug\\cmTC_6f231.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_6f231.dir\\Debug\\\\" /Fd"cmTC_6f231.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CMakeCXXCompilerABI.cpp
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_6f231.dir\\Debug\\\\" /Fd"cmTC_6f231.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eboypr\\Debug\\cmTC_6f231.exe" /INCREMENTAL /ILK:"cmTC_6f231.dir\\Debug\\cmTC_6f231.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-eboypr/Debug/cmTC_6f231.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-eboypr/Debug/cmTC_6f231.lib" /MACHINE:X64  /machine:x64 cmTC_6f231.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_6f231.vcxproj -> C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eboypr\\Debug\\cmTC_6f231.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_6f231.dir\\Debug\\cmTC_6f231.tlog\\unsuccessfulbuild".
+          Touching "cmTC_6f231.dir\\Debug\\cmTC_6f231.tlog\\cmTC_6f231.lastbuildstate".
+        Done Building Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-eboypr\\cmTC_6f231.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.36.32532/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.36.32537.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1887 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2399 (__FetchContent_Populate)"
+      - "CMakeLists.txt:21 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Users/zinov/.gemini/antigravity/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/FFAIO/bin/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/"
+      - "C:/Program Files/Common Files/Autodesk Shared/"
+      - "C:/Program Files (x86)/Autodesk/Backburner/"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/"
+      - "C:/Program Files/MATLAB/R2025b/bin/"
+      - "C:/Program Files/Tailscale\"/"
+      - "C:/Program Files/Tailscale/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/zinov/.unsloth/studio/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/zinov/.dotnet/tools/"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/"
+      - "C:/Users/zinov/AppData/Local/spicetify/"
+      - "C:/Users/zinov/AppData/Roaming/npm/"
+      - "C:/Users/zinov/AppData/AndroidCLI/"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/"
+      - "C:/Users/zinov/.bun/bin/"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Program Files (x86)/Visualiser/bin/"
+      - "C:/Program Files (x86)/Visualiser/sbin/"
+      - "C:/Program Files (x86)/Visualiser/"
+      - "C:/Users/zinov/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Users/zinov/.gemini/antigravity/bin/git.cmd.com"
+      - "C:/Users/zinov/.gemini/antigravity/bin/git.cmd.exe"
+      - "C:/Users/zinov/.gemini/antigravity/bin/git.cmd"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/git.cmd.com"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/git.cmd"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/git.cmd.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/git.cmd.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git.cmd.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git.cmd.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files (x86)/FFAIO/bin/git.cmd.com"
+      - "C:/Program Files (x86)/FFAIO/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/FFAIO/bin/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/git.cmd.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/git.cmd"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/git.cmd.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/git.cmd"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/git.cmd.com"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/Tools/Binn/git.cmd"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/git.cmd.com"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/git.cmd.exe"
+      - "C:/Program Files/Microsoft SQL Server/150/DTS/Binn/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/git.cmd"
+      - "C:/Program Files/Common Files/Autodesk Shared/git.cmd.com"
+      - "C:/Program Files/Common Files/Autodesk Shared/git.cmd.exe"
+      - "C:/Program Files/Common Files/Autodesk Shared/git.cmd"
+      - "C:/Program Files (x86)/Autodesk/Backburner/git.cmd.com"
+      - "C:/Program Files (x86)/Autodesk/Backburner/git.cmd.exe"
+      - "C:/Program Files (x86)/Autodesk/Backburner/git.cmd"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd.com"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd.exe"
+      - "C:/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR/git.cmd"
+      - "C:/Program Files/MATLAB/R2025b/bin/git.cmd.com"
+      - "C:/Program Files/MATLAB/R2025b/bin/git.cmd.exe"
+      - "C:/Program Files/MATLAB/R2025b/bin/git.cmd"
+      - "C:/Program Files/Tailscale\"/git.cmd.com"
+      - "C:/Program Files/Tailscale\"/git.cmd.exe"
+      - "C:/Program Files/Tailscale\"/git.cmd"
+      - "C:/Program Files/Tailscale/git.cmd.com"
+      - "C:/Program Files/Tailscale/git.cmd.exe"
+      - "C:/Program Files/Tailscale/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/git.cmd.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/git.cmd.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/git.cmd"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.com"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd.exe"
+      - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/zinov/.unsloth/studio/bin/git.cmd.com"
+      - "C:/Users/zinov/.unsloth/studio/bin/git.cmd.exe"
+      - "C:/Users/zinov/.unsloth/studio/bin/git.cmd"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/zinov/.dotnet/tools/git.cmd.com"
+      - "C:/Users/zinov/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/zinov/.dotnet/tools/git.cmd"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/git.cmd.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Ollama/git.cmd"
+      - "C:/Users/zinov/AppData/Local/spicetify/git.cmd.com"
+      - "C:/Users/zinov/AppData/Local/spicetify/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Local/spicetify/git.cmd"
+      - "C:/Users/zinov/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/zinov/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Roaming/npm/git.cmd"
+      - "C:/Users/zinov/AppData/AndroidCLI/git.cmd.com"
+      - "C:/Users/zinov/AppData/AndroidCLI/git.cmd.exe"
+      - "C:/Users/zinov/AppData/AndroidCLI/git.cmd"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/git.cmd.com"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Local/Muse Hub/lib/git.cmd"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/git.cmd.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Antigravity IDE/bin/git.cmd"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/git.cmd.com"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Local/Microsoft/WinGet/Packages/astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe/git.cmd"
+      - "C:/Users/zinov/.bun/bin/git.cmd.com"
+      - "C:/Users/zinov/.bun/bin/git.cmd.exe"
+      - "C:/Users/zinov/.bun/bin/git.cmd"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/git.cmd.com"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Roaming/Python/Python312/Scripts/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Program Files (x86)/Visualiser/bin/git.cmd.com"
+      - "C:/Program Files (x86)/Visualiser/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/Visualiser/bin/git.cmd"
+      - "C:/Program Files (x86)/Visualiser/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/Visualiser/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/Visualiser/sbin/git.cmd"
+      - "C:/Program Files (x86)/Visualiser/git.cmd.com"
+      - "C:/Program Files (x86)/Visualiser/git.cmd.exe"
+      - "C:/Program Files (x86)/Visualiser/git.cmd"
+      - "C:/Users/zinov/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/zinov/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/zinov/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Users/zinov/.gemini/antigravity/bin/git.com"
+      - "C:/Users/zinov/.gemini/antigravity/bin/git.exe"
+      - "C:/Users/zinov/.gemini/antigravity/bin/git"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/git.com"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/git.exe"
+      - "C:/Users/zinov/AppData/Roaming/Antigravity/bin/git"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/git.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/git.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.19.10-hotspot/bin/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git.com"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git.exe"
+      - "C:/Program Files/Oculus/Support/oculus-runtime/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files (x86)/FFAIO/bin/git.com"
+      - "C:/Program Files (x86)/FFAIO/bin/git.exe"
+      - "C:/Program Files (x86)/FFAIO/bin/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/git.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/git.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/git"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/git.com"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/git.exe"
+      - "C:/Users/zinov/AppData/Local/Programs/Python/Python311/Scripts/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:/Users/zinov/.gemini/antigravity/bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Antigravity\\bin"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.19.10-hotspot\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files\\Oculus\\Support\\oculus-runtime"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files (x86)\\FFAIO\\bin"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Python\\Python311\\Scripts"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
+        - "C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\"
+        - "C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        - "C:\\Program Files\\Common Files\\Autodesk Shared\\"
+        - "C:\\Program Files (x86)\\Autodesk\\Backburner\\"
+        - "C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR"
+        - "C:\\Program Files\\MATLAB\\R2025b\\bin"
+        - "C:\\Program Files\\Tailscale\""
+        - "C:\\Program Files\\Tailscale\\"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Users\\zinov\\.unsloth\\studio\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\zinov\\.dotnet\\tools"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\zinov\\AppData\\Local\\spicetify"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\npm"
+        - "C:\\Users\\zinov\\AppData\\AndroidCLI"
+        - "C:\\Users\\zinov\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\Users\\zinov\\AppData\\Local\\Programs\\Antigravity IDE\\bin"
+        - "C:\\Users\\zinov\\AppData\\Local\\Microsoft\\WinGet\\Packages\\astral-sh.uv_Microsoft.Winget.Source_8wekyb3d8bbwe"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Users\\zinov\\.bun\\bin"
+        - "C:\\Users\\zinov\\AppData\\Roaming\\Python\\Python312\\Scripts"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Visualiser"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/Visualiser"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "build/_deps/glfw-src/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-hhksvx"
+      binary: "C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-hhksvx"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-hhksvx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5f9bd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 14.06.2026 19:42:48.
+        
+        Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhksvx\\cmTC_5f9bd.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhksvx\\Debug\\".
+          Creating directory "cmTC_5f9bd.dir\\Debug\\cmTC_5f9bd.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_5f9bd.dir\\Debug\\cmTC_5f9bd.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5f9bd.dir\\Debug\\\\" /Fd"cmTC_5f9bd.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhksvx\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          src.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_5f9bd.dir\\Debug\\\\" /Fd"cmTC_5f9bd.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhksvx\\src.c"
+        C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhksvx\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhksvx\\cmTC_5f9bd.vcxproj]
+        Done Building Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhksvx\\cmTC_5f9bd.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhksvx\\cmTC_5f9bd.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhksvx\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hhksvx\\cmTC_5f9bd.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-dbuq1u"
+      binary: "C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-dbuq1u"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-dbuq1u'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_32d5c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 14.06.2026 19:42:48.
+        
+        Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbuq1u\\cmTC_32d5c.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbuq1u\\Debug\\".
+          Creating directory "cmTC_32d5c.dir\\Debug\\cmTC_32d5c.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_32d5c.dir\\Debug\\cmTC_32d5c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_32d5c.dir\\Debug\\\\" /Fd"cmTC_32d5c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbuq1u\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_32d5c.dir\\Debug\\\\" /Fd"cmTC_32d5c.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbuq1u\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbuq1u\\Debug\\cmTC_32d5c.exe" /INCREMENTAL /ILK:"cmTC_32d5c.dir\\Debug\\cmTC_32d5c.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-dbuq1u/Debug/cmTC_32d5c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-dbuq1u/Debug/cmTC_32d5c.lib" /MACHINE:X64  /machine:x64 cmTC_32d5c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbuq1u\\cmTC_32d5c.vcxproj]
+        Done Building Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbuq1u\\cmTC_32d5c.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbuq1u\\cmTC_32d5c.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dbuq1u\\cmTC_32d5c.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.38
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "build/_deps/glfw-src/CMakeLists.txt:62 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-in0hso"
+      binary: "C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-in0hso"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-src/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-in0hso'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bba16.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.6.3+07e294721 for .NET Framework
+        Build started 14.06.2026 19:42:49.
+        
+        Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-in0hso\\cmTC_bba16.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-in0hso\\Debug\\".
+          Creating directory "cmTC_bba16.dir\\Debug\\cmTC_bba16.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_bba16.dir\\Debug\\cmTC_bba16.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bba16.dir\\Debug\\\\" /Fd"cmTC_bba16.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-in0hso\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32537 for x64
+          CheckFunctionExists.c
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_bba16.dir\\Debug\\\\" /Fd"cmTC_bba16.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-in0hso\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-in0hso\\Debug\\cmTC_bba16.exe" /INCREMENTAL /ILK:"cmTC_bba16.dir\\Debug\\cmTC_bba16.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-in0hso/Debug/cmTC_bba16.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/CMakeScratch/TryCompile-in0hso/Debug/cmTC_bba16.lib" /MACHINE:X64  /machine:x64 cmTC_bba16.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-in0hso\\cmTC_bba16.vcxproj]
+        Done Building Project "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-in0hso\\cmTC_bba16.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-in0hso\\cmTC_bba16.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\zinov\\Desktop\\Visualiser\\build\\CMakeFiles\\CMakeScratch\\TryCompile-in0hso\\cmTC_bba16.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.39
+        
+      exitCode: 1
+...

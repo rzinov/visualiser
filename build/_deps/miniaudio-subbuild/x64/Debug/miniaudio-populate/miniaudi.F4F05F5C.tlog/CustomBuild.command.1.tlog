@@ -1,0 +1,150 @@
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\804467F1B081DCBFC896F2B6A41A96A3\MINIAUDIO-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/tmp/miniaudio-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/Debug/miniaudio-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\804467F1B081DCBFC896F2B6A41A96A3\MINIAUDIO-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\zinov\Desktop\Visualiser\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/tmp/miniaudio-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/Debug/miniaudio-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\804467F1B081DCBFC896F2B6A41A96A3\MINIAUDIO-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\zinov\Desktop\Visualiser\build\_deps\miniaudio-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/tmp/miniaudio-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\804467F1B081DCBFC896F2B6A41A96A3\MINIAUDIO-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/Debug/miniaudio-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\804467F1B081DCBFC896F2B6A41A96A3\MINIAUDIO-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\zinov\Desktop\Visualiser\build\_deps\miniaudio-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/Debug/miniaudio-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\804467F1B081DCBFC896F2B6A41A96A3\MINIAUDIO-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\zinov\Desktop\Visualiser\build\_deps\miniaudio-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/Debug/miniaudio-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\804467F1B081DCBFC896F2B6A41A96A3\MINIAUDIO-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\zinov\Desktop\Visualiser\build\_deps\miniaudio-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/Debug/miniaudio-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\804467F1B081DCBFC896F2B6A41A96A3\MINIAUDIO-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\zinov\Desktop\Visualiser\build\_deps\miniaudio-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/Debug/miniaudio-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\55B14D77829F7F8B4BC3921F7C3C6D7B\MINIAUDIO-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/Debug/miniaudio-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/miniaudio-populate-prefix/src/miniaudio-populate-stamp/Debug/miniaudio-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKEFILES\2DE03DEFAFFAC7E94B0FE8806E51C640\MINIAUDIO-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ZINOV\DESKTOP\VISUALISER\BUILD\_DEPS\MINIAUDIO-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild -BC:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild --check-stamp-file C:/Users/zinov/Desktop/Visualiser/build/_deps/miniaudio-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

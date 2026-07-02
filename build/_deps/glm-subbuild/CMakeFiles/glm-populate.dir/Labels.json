@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/glm-populate"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/c40f9cfe9c8122b5375649f6a541f1ef/glm-populate.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/a7ba9bd48de80c994989559d2f59bb7b/glm-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/e900f1313ce6088365ce1f9238f4ef11/glm-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/e900f1313ce6088365ce1f9238f4ef11/glm-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/e900f1313ce6088365ce1f9238f4ef11/glm-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/e900f1313ce6088365ce1f9238f4ef11/glm-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/e900f1313ce6088365ce1f9238f4ef11/glm-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/e900f1313ce6088365ce1f9238f4ef11/glm-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/e900f1313ce6088365ce1f9238f4ef11/glm-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-subbuild/CMakeFiles/e900f1313ce6088365ce1f9238f4ef11/glm-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glm-populate"
+		],
+		"name" : "glm-populate"
+	}
+}

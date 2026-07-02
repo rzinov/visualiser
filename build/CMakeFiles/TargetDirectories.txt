@@ -1,0 +1,7 @@
+C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/Visualiser.dir
+C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/zinov/Desktop/Visualiser/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-build/src/CMakeFiles/update_mappings.dir
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glfw-build/src/CMakeFiles/glfw.dir
+C:/Users/zinov/Desktop/Visualiser/build/_deps/glm-build/CMakeFiles/ALL_BUILD.dir

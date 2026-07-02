@@ -1,0 +1,338 @@
+#version 430 core
+
+layout(local_size_x = 1024, local_size_y = 1, local_size_z = 1) in;
+
+struct Particle {
+    vec4 position_life; // xy = position, z = Species ID, w = life (0.0 to 1.0)
+    vec4 velocity_mass; // xyz = velocity, w = mass
+};
+
+layout(std430, binding = 0) buffer ParticleBuffer {
+    Particle particles[];
+};
+
+uniform float u_time;
+uniform float u_audioTime;
+uniform float u_delta_time;
+uniform uint u_num_particles;
+uniform float u_aspect;
+
+// Dynamic Attractor parameters shifted by bass onsets
+uniform float u_a;
+uniform float u_b;
+uniform float u_c;
+uniform float u_d;
+
+// Audio variables
+uniform float u_bass;
+uniform float u_mids;
+uniform float u_treble;
+uniform float u_bass_onset;
+uniform float u_kickImpact;
+
+// Fluid Parameters
+uniform float u_curlEpsilon; // Used as warp scale multiplier
+uniform float u_noiseFreq;
+uniform float u_noiseEvolSpeed;
+uniform float u_fluidDrag;
+uniform float u_smokeDiffusion;
+
+// Mouse Interaction Parameters
+uniform vec2 u_mousePos;
+uniform int u_mouseInteraction;
+uniform float u_mouseGravity;
+uniform float u_beatRepelStrength;
+uniform float u_lightningActive;
+uniform vec2 u_lightningStart;
+uniform vec2 u_lightningEnd;
+
+// Call & Response / Hype / Harshness
+uniform float u_leftGravity;
+uniform float u_rightGravity;
+uniform vec2 u_windForce;
+uniform float u_hype;
+uniform float u_harshness;
+uniform int u_shoegazeMode;
+
+// Fast GPU Hash and PRNG
+uint hash(uint x) {
+    x = ((x >> 16) ^ x) * 0x45d9f3bU;
+    x = ((x >> 16) ^ x) * 0x45d9f3bU;
+    x = (x >> 16) ^ x;
+    return x;
+}
+
+float randFloat(inout uint seed) {
+    seed = hash(seed);
+    return float(seed) / 4294967295.0;
+}
+
+// 2D Simplex Noise implementation for domain warping and fluid flow
+vec3 permute(vec3 x) { return mod(((x*34.0)+1.0)*x, 289.0); }
+
+float snoise(vec2 v) {
+    const vec4 C = vec4(0.211324865405187, 0.366025403784439,
+             -0.577350269189626, 0.024390243902439);
+    vec2 i  = floor(v + dot(v, C.yy) );
+    vec2 x0 = v -   i + dot(i, C.xx) ;
+    vec2 i1;
+    i1 = (x0.x > x0.y) ? vec2(1.0, 0.0) : vec2(0.0, 1.0);
+    vec4 x12 = x0.xyxy + C.xxzz;
+    x12.xy -= i1;
+    i = mod(i, 289.0);
+    vec3 p = permute( permute( i.y + vec3(0.0, i1.y, 1.0 ))
+        + i.x + vec3(0.0, i1.x, 1.0 ));
+    vec3 m = max(0.5 - vec3(dot(x0,x0), dot(x12.xy,x12.xy),
+        dot(x12.zw,x12.zw)), 0.0);
+    m = m*m ;
+    m = m*m ;
+    vec3 x = 2.0 * fract(p * C.www) - 1.0;
+    vec3 h = abs(x) - 0.5;
+    vec3 a0 = x - floor(x + 0.5);
+    vec3 g = a0 * vec3(m.x, m.y, m.z) + h * vec3(m.x, m.y, m.z);
+    return 130.0 * dot(m, g);
+}
+
+void main() {
+    uint idx = gl_GlobalInvocationID.x;
+    if (idx >= u_num_particles) {
+        return;
+    }
+
+    Particle p = particles[idx];
+    float species = p.position_life.z;
+    float life = p.position_life.w;
+    vec2 pos = p.position_life.xy;
+    vec2 vel = p.velocity_mass.xy;
+    float ionization = p.velocity_mass.z;
+
+    // Decay life based on species
+    float decayRate = 0.4;
+    if (species < 0.5) {
+        decayRate = 0.08;
+    } else if (species < 1.5) {
+        decayRate = 0.2;
+    } else {
+        decayRate = 0.45;
+    }
+    
+    life -= u_delta_time * decayRate;
+
+    // Respawn if life expired or drifted too far out of bounds
+    bool outOfBounds = length(pos) > 4.5;
+    float xBound = u_aspect / 0.45;
+    bool shoegazeOffscreen = (u_shoegazeMode == 1 && pos.x < -xBound);
+
+    if (life <= 0.0 || outOfBounds || shoegazeOffscreen) {
+        uint seed = idx + uint(u_time * 1337.0);
+        
+        if (u_shoegazeMode == 1 && (outOfBounds || shoegazeOffscreen) && life > 0.05) {
+            // Respawn on the far right edge of the screen to maintain continuous flow
+            float spawnY = (randFloat(seed) * 2.0 - 1.0) * (1.0 / 0.45);
+            pos = vec2(xBound, spawnY);
+            // Retain leftward velocity
+            vel = vec2(-2.0 - randFloat(seed) * 2.0, (randFloat(seed) * 2.0 - 1.0) * 0.5);
+            // Keep current life to avoid sudden death popping
+            life = clamp(life, 0.2, 1.0); 
+            ionization = 0.0;
+        } else {
+            // Standard center spawn
+            float angle = randFloat(seed) * 2.0 * 3.14159265;
+            float maxRadius = (species < 0.5) ? 0.05 : ((species < 1.5) ? 0.15 : 0.3);
+            float r = randFloat(seed) * maxRadius;
+            
+            pos = vec2(cos(angle) * r, sin(angle) * r);
+            vel = vec2(0.0);
+            life = 1.0;
+            ionization = 0.0;
+        }
+    } else {
+        // Clifford Attractor chaotic map target
+        float x_next = sin(u_a * pos.y) - cos(u_b * pos.x);
+        float y_next = sin(u_c * pos.x) - cos(u_d * pos.y);
+        vec2 attractorForce = vec2(x_next - pos.x, y_next - pos.y);
+        
+        // 1. Calculate main noise coordinates with dynamic evolution
+        float timeMod = u_audioTime * u_noiseEvolSpeed;
+        
+        // Zero-Jitter Noise coordinates
+        vec2 samplePos = pos;
+
+        // Prismatic Fluid Dispersal: coordinate shear offset vector per species
+        vec2 shear = vec2(0.0);
+        if (species < 0.5) {
+            shear = vec2(0.006, -0.004); // Hot Bass
+        } else if (species < 1.5) {
+            shear = vec2(-0.005, 0.005); // Cool Mids
+        } else {
+            shear = vec2(0.002, 0.002);  // Swarm
+        }
+        
+        vec2 coord = samplePos * u_noiseFreq + vec2(timeMod, -timeMod * 0.7);
+        
+        // Evaluate domain warp offset (non-rotational Simplex noise loop)
+        vec2 warpUV = coord + shear;
+        float warpX = snoise(warpUV);
+        float warpY = snoise(warpUV + vec2(7.3, 3.7));
+        vec2 warpForce = vec2(warpX, warpY) * u_curlEpsilon * 15.0;
+        
+        // Lookup main noise at the warped coordinate
+        vec2 mainCoord = coord + warpForce;
+        float flowX = snoise(mainCoord);
+        float flowY = snoise(mainCoord + vec2(13.5, 9.2));
+        vec2 mainFlow = vec2(flowX, flowY);
+        
+        // 2. Layer secondary high-frequency acoustic noise ripples (treble/mids driven transient octave)
+        vec2 rippleCoord = samplePos * (u_noiseFreq * 4.5) + vec2(-timeMod * 2.5, timeMod * 2.0) + shear;
+        float rippleX = snoise(rippleCoord);
+        float rippleY = snoise(rippleCoord + vec2(19.3, 11.7));
+        vec2 acousticRipple = vec2(rippleX, rippleY);
+        
+        float rippleStrength = (clamp(u_treble, 0.0, 10.0) * 16.0 + clamp(u_mids, 0.0, 10.0) * 6.0) * 0.04;
+        
+        // Combined non-rotational domain-warped Simplex noise force
+        vec2 noiseForce = mainFlow + acousticRipple * rippleStrength;
+        
+        // Attractor pull and noise intensity are modulated by audio energy
+        float attractorStrength = 12.0 + u_kickImpact * 1.0;
+        float noiseStrength = 1.5 + clamp(u_treble, 0.0, 10.0) * 15.0 + clamp(u_mids, 0.0, 10.0) * 8.0;
+        
+        if (species < 0.5) {
+            attractorStrength *= 1.5;
+            noiseStrength *= 0.2;
+        } else if (species < 1.5) {
+            attractorStrength *= 1.0;
+            noiseStrength *= 0.8;
+        } else {
+            attractorStrength *= 0.7;
+            noiseStrength *= 1.5;
+        }
+
+        if (u_shoegazeMode == 1) {
+            attractorStrength = 0.0;
+        }
+        
+        float hypeNoiseScale = 1.0 + u_hype * 0.8;
+        float hypeAttractScale = 1.0 + u_hype * 0.3;
+        vec2 accel = attractorForce * attractorStrength * hypeAttractScale + noiseForce * noiseStrength * hypeNoiseScale;
+        
+        // Apply wind force
+        accel += u_windForce;
+
+        // Apply Left Gravity Attraction
+        if (u_leftGravity > 0.0) {
+            vec2 toLeft = vec2(-2.0, 0.0) - pos;
+            float distToLeft = length(toLeft);
+            if (distToLeft > 0.001 && distToLeft < 5.0) {
+                vec2 forceDir = normalize(toLeft);
+                float forceMag = u_leftGravity / (distToLeft * distToLeft + 0.15);
+                accel += forceDir * forceMag;
+            }
+        }
+
+        // Apply Right Gravity Attraction
+        if (u_rightGravity > 0.0) {
+            vec2 toRight = vec2(2.0, 0.0) - pos;
+            float distToRight = length(toRight);
+            if (distToRight > 0.001 && distToRight < 5.0) {
+                vec2 forceDir = normalize(toRight);
+                float forceMag = u_rightGravity / (distToRight * distToRight + 0.15);
+                accel += forceDir * forceMag;
+            }
+        }
+        
+        // Central beat-onset repel shockwave force (massive push from center)
+        if (u_beatRepelStrength > 0.0) {
+            vec2 toCenter = pos; // pos is relative to center (0,0)
+            float distToCenter = length(toCenter);
+            if (distToCenter > 0.001 && distToCenter < 4.5) {
+                vec2 forceDir = normalize(toCenter);
+                // Inverse-square repel force from center
+                float forceMag = u_beatRepelStrength / (distToCenter * distToCenter + 0.1);
+                accel += forceDir * forceMag;
+            }
+        }
+
+        // Interactive Mouse Gravity Force
+        if (u_mouseInteraction != 0) {
+            vec2 toMouse = u_mousePos - pos;
+            float distToMouse = length(toMouse);
+            if (distToMouse > 0.001 && distToMouse < 6.0) {
+                vec2 forceDir = normalize(toMouse);
+                float forceMag = u_mouseGravity / (distToMouse * distToMouse + 0.02);
+                
+                vec2 mouseForce = vec2(0.0);
+                if (u_mouseInteraction == 2) {
+                    mouseForce = forceDir * forceMag;
+                } else if (u_mouseInteraction == 1) {
+                    mouseForce = -forceDir * forceMag;
+                }
+                
+                accel += mouseForce * (1.0 + clamp(u_bass, 0.0, 10.0) * 1.5);
+            }
+        }
+        
+        // Central beat-onset repel shockwave force is done, now do lightning force
+        if (u_lightningActive > 0.0) {
+            // Map particle pos (attractor space) to NDC space
+            vec2 ndcPos = vec2((pos.x * 0.45) / u_aspect, pos.y * 0.45);
+
+            vec2 ab = u_lightningEnd - u_lightningStart;
+            vec2 ap = ndcPos - u_lightningStart;
+            float t_line = clamp(dot(ap, ab) / dot(ab, ab), 0.0, 1.0);
+            vec2 closestPoint = u_lightningStart + t_line * ab;
+            
+            // Jagged line displacement offset
+            float jag = sin(ndcPos.y * 45.0 + u_audioTime * 15.0) * 0.02 * (1.0 - t_line * 0.3) + cos(ndcPos.x * 30.0) * 0.015;
+            vec2 jagOffset = vec2(jag, -jag * 0.5);
+            float distToBolt = length(ndcPos - closestPoint + jagOffset);
+            
+            if (distToBolt < 0.05) { // ~50 pixels on 1080p
+                // Strike! Pin ionization to 1.0
+                ionization = 1.0;
+                
+                // Accelerate particles extremely fast along the direction of the bolt
+                // Map the NDC force back to attractor space
+                vec2 boltDir = normalize(ab);
+                vec2 boltForce = boltDir * 35.0 * u_lightningActive;
+                accel += vec2(boltForce.x * u_aspect / 0.45, boltForce.y / 0.45);
+            }
+        }
+
+        if (u_shoegazeMode == 1) {
+            // A traveling wave pushing particles leftwards (right to left)
+            float wavePhase = pos.x * 2.2 + pos.y * 0.9 + u_audioTime * 6.0;
+            float wave = sin(wavePhase);
+            float waveCos = cos(wavePhase);
+            // Leftward force modulated by the wave + vertical wave sway
+            vec2 waveForce = vec2(
+                -20.0 - (wave + 1.0) * 25.0 * (1.0 + u_bass * 1.5), 
+                waveCos * 12.0 * (1.0 + u_mids * 1.0)
+            );
+            accel += waveForce;
+        }
+
+        // Decay ionization state over time (decays to 0 over ~0.6 seconds)
+        ionization = max(0.0, ionization - u_delta_time * 1.6);
+        
+        // Integrate using Euler integration
+        vel += accel * u_delta_time;
+        vel *= clamp(1.0 - u_fluidDrag * u_delta_time, 0.0, 1.0);
+        
+        pos += vel * u_delta_time;
+        
+        // Add random walk / Brownian motion for smoke diffusion (prevents thin track lines)
+        uint seed = idx + uint(u_time * 1999.0);
+        float randX = randFloat(seed) * 2.0 - 1.0;
+        float randY = randFloat(seed) * 2.0 - 1.0;
+        pos += vec2(randX, randY) * u_smokeDiffusion * u_delta_time * 1.5;
+    }
+
+    // Write back to VRAM buffer
+    p.position_life.xy = pos;
+    p.position_life.w = life;
+    p.velocity_mass.xy = vel;
+    p.velocity_mass.z = ionization;
+
+    particles[idx] = p;
+}
